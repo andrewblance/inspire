@@ -58,12 +58,13 @@ def split_text(text):
     return(entries)
 
 def tokenize(text,n_files):
+    '''returns abstract tokens of each file'''
     #split=split_text(text)
     tokens=[]
     for i in range(0,n_files):
-        title_tokens=nltk.word_tokenize(split[i].get('title').lower()) 
+        #title_tokens=nltk.word_tokenize(split[i].get('title').lower()) 
         abstract_tokens=nltk.word_tokenize(split[i].get('abstract').lower())
-        tokens.append({u'title':title_tokens,u'abstract':abstract_tokens})
+        tokens.append(abstract_tokens)
     return (tokens)
 
 def find_keywords(n,token,keys,freq_on):
@@ -88,6 +89,36 @@ def find_keywords(n,token,keys,freq_on):
             
     return sparse.lil_matrix(key_freq)
 
+def find_keywords2(n,token,keys,freq_on):
+    '''Returns sparse matrix of (N_files x N_keywords) for n_gram keywords, e.g if n=2 then it finds all the bigrams. 
+    If freq_on=True then the frequency of each key word is stored else a 1 is stored if the keyword is present in the 
+    abstract and a 0 if not.'''
+    n_gram=list(ngrams(token,n))
+    smush=["" for x in range(len(token))]
+    for i in range(len(n_gram)):
+        for j in range(0,n):
+            smush[i]+=n_gram[i][j]          
+    
+    
+    def key(keys):
+        if freq_on==False:
+            for key in keys:
+                if key in  smush:
+                    yield 1
+                else:
+                    yield 0
+        
+        else:
+            for key in keys:
+                if key in  smush:
+                    yield smush.count(key)
+                else:
+                    yield 0
+    
+    key_freq= list(key(keys))
+            
+    return sparse.lil_matrix(key_freq)
+
 def key_tot(text,keys,freq_on):
     #split=split_text(text)
     #title_tokens=[]
@@ -98,7 +129,16 @@ def key_tot(text,keys,freq_on):
         #title_tokens.append(tokenize(split,len(data))[i].get('title'))
         abstract_tokens.append(tokenize(split,len(text))[i].get('abstract'))
     for j in range(len(text)):
-        key_freq[j]=(find_keywords(1,abstract_tokens[j],key,freq_on)+find_keywords(2,abstract_tokens[j],key,freq_on)+find_keywords(3,abstract_tokens[j],key,freq_on)+find_keywords(4,abstract_tokens[j],key,freq_on))
+        key_freq[j]=(find_keywords2(1,abstract_tokens[j],key,freq_on)+find_keywords2(2,abstract_tokens[j],key,freq_on)+find_keywords2(3,abstract_tokens[j],key,freq_on)+find_keywords2(4,abstract_tokens[j],key,freq_on))
+        
+    return key_freq
+
+def key_tot2(text,keys,freq_on):
+    '''Finds all the 1,2,3,4 gram keywords present in each text and returns sparse matrix of size(N_files x N_keywords) '''
+    key_freq=sparse.lil_matrix((len(text),len(keys)))
+    abstract_tokens=tokenize(split,len(text))
+    for j in range(len(text)):
+        key_freq[j]=(find_keywords2(1,abstract_tokens[j],key,freq_on)+find_keywords2(2,abstract_tokens[j],key,freq_on)+find_keywords2(3,abstract_tokens[j],key,freq_on)+find_keywords2(4,abstract_tokens[j],key,freq_on))
         
     return key_freq
 
@@ -119,13 +159,13 @@ if __name__ == "__main__":
     
     data=load_data('/Users/parisa/Documents/inspires_project/inspire/small')
     split=split_text(data)
-    #token=tokenize(split,len(data))[0].get('abstract')
+    #token=tokenize(split,len(data))
     
     #print(find_keywords(1,token,key)+find_keywords(2,token,key))
-    result1= key_tot(data,key,True)
-    result2= key_tot(data,key,False)
-    save('bag_of_keys',result2.tocsr())
-    save('bag_of_keys_freq',result1.tocsr())
+    result1= key_tot2(data,key,True)
+    result2= key_tot2(data,key,False)
+    save('bag_of_keys_small',result2.tocsr())
+    save('bag_of_keys_freq_small',result1.tocsr())
     
     
     
