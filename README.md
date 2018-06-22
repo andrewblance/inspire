@@ -6,6 +6,9 @@ Included in this repository is the notebook required to extract data from a ```.
 
 We have also included our presentation on our final results, this is ```inspire_talk_original.pdf```
 
+The following link is to our notes in a Google doc:
+https://docs.google.com/document/d/1PTnY3QBe57Ajd8XeGymXtIaFEbmBEglYWj_jMjQ3iHA/edit?usp=sharing
+
 ## Running
 The file ```inspire_classifer.ipynb``` contains all the major attempts we made at solving the problem. Therefore, running the entire file will take time. Only the sections titled 'Initial dataframe import', 'SVM with fractions' and 'Decision Boundary Cuts' need to be run to produce our final results. 
 
