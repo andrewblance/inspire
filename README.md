@@ -10,8 +10,8 @@ We have also included our presentation on our final results, this is ```inspire_
 The file ```inspire_classifer.ipynb``` contains all the major attempts we made at solving the problem. Therefore, running the entire file will take time. Only the sections titled 'Initial dataframe import', 'SVM with fractions' and 'Decision Boundary Cuts' need to be run to produce our final results. 
 
 ## Authors
-Andrew Blance
-Aidan Sedgewick
-Parisa Gregg
+Andrew Blance<br/>
+Aidan Sedgewick<br/>
+Parisa Gregg<br/>
   
  
