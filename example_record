@@ -1,0 +1,699 @@
+{ 'data': { '$schema': 'http://pcrcsis02.cern.ch/schemas/records/hep.json',
+            '_collections': ['Literature'],
+            '_files': [ { 'bucket': 'a2e88987-d347-491c-8356-b05e126a3462',
+                          'checksum': 'md5:a3f1a9971347cd117e10b4c3441ea817',
+                          'key': '0705.3928.tar.gz',
+                          'size': 10890,
+                          'version_id': '19e5d57e-450e-4d58-bc37-1d3a3a75ea4e'},
+                        { 'bucket': 'a2e88987-d347-491c-8356-b05e126a3462',
+                          'checksum': 'md5:80dbf0ef42c3f22e0634e3df3fdb8668',
+                          'key': '0705.3928.pdf',
+                          'size': 166854,
+                          'version_id': '66dc968c-5b09-4154-b8fd-765fc8cb1f85'}],
+            'abstracts': [ { 'source': 'arXiv',
+                             'value': 'The dissipative Hofstadter model '
+                                      'describes quantum particles moving in '
+                                      'two dimensions subject to a uniform '
+                                      'magnetic field, a periodic potential '
+                                      'and a dissipative force. We discuss the '
+                                      'dissipative Hofstadter model in the '
+                                      'framework of the boundary state '
+                                      'formulation in string theory and '
+                                      'construct exact boundary states for the '
+                                      'model at the magic points by using the '
+                                      'fermion representation. The dissipative '
+                                      'Hofstadter model at magic points is '
+                                      'shown to be equivalent to the critical '
+                                      'boundary sine-Gordon model.'}],
+            'acquisition_source': { 'datetime': '2018-05-17T09:02:59.875865',
+                                    'method': 'hepcrawl',
+                                    'source': 'arXiv',
+                                    'submission_number': 'c9f49d2459af11e8b07c0242ac120002'},
+            'arxiv_eprints': [ { 'categories': [ 'hep-th',
+                                                 'cond-mat.mes-hall',
+                                                 'quant-ph'],
+                                 'value': '0705.3928'}],
+            'authors': [ {'full_name': 'Ji, Seungmuk'},
+                         {'full_name': 'Koo, Ja-Yong'},
+                         {'full_name': 'Lee, Taejin'}],
+            'citeable': True,
+            'curated': False,
+            'document_type': ['article'],
+            'documents': [ { 'fulltext': True,
+                             'hidden': True,
+                             'key': '0705.3928.pdf',
+                             'material': 'preprint',
+                             'original_url': 'http://export.arxiv.org/pdf/0705.3928',
+                             'source': 'arxiv',
+                             'url': '/api/files/a2e88987-d347-491c-8356-b05e126a3462/0705.3928.pdf'}],
+            'dois': [ { 'material': 'publication',
+                        'source': 'arXiv',
+                        'value': '10.3938/jkps.50.54'}],
+            'inspire_categories': [ {'source': 'arxiv', 'term': 'Theory-HEP'},
+                                    { 'source': 'arxiv',
+                                      'term': 'General Physics'}],
+            'number_of_pages': 6,
+            'preprint_date': '2007-05-27',
+            'public_notes': [ { 'source': 'arXiv',
+                                'value': '6 pages, to be published in J. '
+                                         'Koean. Physics. Soc. (2007)'}],
+            'publication_info': [ { 'artid': 'S54',
+                                    'journal_title': 'J.Korean Phys.Soc.',
+                                    'journal_volume': '50',
+                                    'material': 'publication',
+                                    'page_start': 'S54',
+                                    'pubinfo_freetext': 'J. Korean Phys. '
+                                                        'Soc.50, S54 (2007)',
+                                    'year': 2007}],
+            'references': [ { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[1] A. O. Caldeira and '
+                                                       'A. J. Leggett, Ann. '
+                                                       'Phys. 149, 374 '
+                                                       '(1983).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/176413'},
+                              'reference': { 'authors': [ { 'full_name': 'Caldeira, '
+                                                                         'A.O.'},
+                                                          { 'full_name': 'Leggett, '
+                                                                         'A.J.'}],
+                                             'label': '1',
+                                             'publication_info': { 'artid': '374',
+                                                                   'journal_title': 'Annals '
+                                                                                    'Phys.',
+                                                                   'journal_volume': '149',
+                                                                   'page_start': '374',
+                                                                   'year': 1983}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[2] A. O. Caldeira and '
+                                                       'A. J. Leggett, Physica '
+                                                       '121A, 587 (1983).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/176411'},
+                              'reference': { 'authors': [ { 'full_name': 'Caldeira, '
+                                                                         'A.O.'},
+                                                          { 'full_name': 'Leggett, '
+                                                                         'A.J.'}],
+                                             'label': '2',
+                                             'publication_info': { 'artid': '587',
+                                                                   'journal_title': 'Physica '
+                                                                                    'A',
+                                                                   'journal_volume': '121',
+                                                                   'page_start': '587',
+                                                                   'year': 1983}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[3] C. G. Callan, Jr. '
+                                                       'and D. Freed, Nucl. '
+                                                       'Phys. B374, 543 '
+                                                       '(1992), '
+                                                       '[hep-th/9110046].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/320066'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9110046',
+                                             'authors': [ { 'full_name': 'Callan, '
+                                                                         'C.G.'}],
+                                             'label': '3',
+                                             'misc': ['Jr. and D. Freed'],
+                                             'publication_info': { 'artid': '543',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '374',
+                                                                   'page_start': '543',
+                                                                   'year': 1992}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[4] C. Callan, A. '
+                                                       'Felce and D. Freed, '
+                                                       'Nucl. Phys. B392, 551 '
+                                                       '(1993), '
+                                                       '[hep-th/9202085].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/332750'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9202085',
+                                             'authors': [ { 'full_name': 'Callan, '
+                                                                         'C.'},
+                                                          { 'full_name': 'Felce, '
+                                                                         'A.'},
+                                                          { 'full_name': 'Freed, '
+                                                                         'D.'}],
+                                             'label': '4',
+                                             'publication_info': { 'artid': '551',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '392',
+                                                                   'page_start': '551',
+                                                                   'year': 1993}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[5] D. E. Freed, Nucl. '
+                                                       'Phys. B409, 565 '
+                                                       '(1993), '
+                                                       '[hep-th/9304006]; '
+                                                       '[hep-th/9311034].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/353637'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9304006',
+                                             'authors': [ { 'full_name': 'Freed, '
+                                                                         'D.E.'}],
+                                             'label': '5',
+                                             'publication_info': { 'artid': '565',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '409',
+                                                                   'page_start': '565',
+                                                                   'year': 1993}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[5] D. E. Freed, Nucl. '
+                                                       'Phys. B409, 565 '
+                                                       '(1993), '
+                                                       '[hep-th/9304006]; '
+                                                       '[hep-th/9311034].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/36307'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9311034',
+                                             'label': '5'}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[6] L.I. Glazman and '
+                                                       'A. I. Larkin, Phys. '
+                                                       'Rev. Lett. 79, '
+                                                       '3736(1997) '
+                                                       '[cond-mat/9809118].'}],
+                              'reference': { 'arxiv_eprint': 'cond-mat/9809118',
+                                             'authors': [ { 'full_name': 'Glazman, '
+                                                                         'L.I.'},
+                                                          { 'full_name': 'Larkin, '
+                                                                         'A.I.'}],
+                                             'label': '6',
+                                             'publication_info': { 'artid': '3736',
+                                                                   'journal_title': 'Phys.Rev.Lett.',
+                                                                   'journal_volume': '79',
+                                                                   'page_start': '3736',
+                                                                   'year': 1997}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[7] R. Fazio and H. '
+                                                       'van der Zant, Phys. '
+                                                       'Rep. 355, 235 '
+                                                       '(2001).'}],
+                              'reference': { 'authors': [ { 'full_name': 'Fazio, '
+                                                                         'R.'}],
+                                             'label': '7',
+                                             'misc': ['and H. van der Zant'],
+                                             'publication_info': { 'artid': '235',
+                                                                   'journal_title': 'Phys.Rept.',
+                                                                   'journal_volume': '355',
+                                                                   'page_start': '235',
+                                                                   'year': 2001}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[8] D. Giuliano and P. '
+                                                       'Sodano, Nucl. Phys. '
+                                                       'B711, 480, (2005) '
+                                                       '[cond-mat/0501378].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/1463868'},
+                              'reference': { 'arxiv_eprint': 'cond-mat/0501378',
+                                             'authors': [ { 'full_name': 'Giuliano, '
+                                                                         'D.'},
+                                                          { 'full_name': 'Sodano, '
+                                                                         'P.'}],
+                                             'label': '8',
+                                             'publication_info': { 'artid': '480',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '711',
+                                                                   'page_start': '480',
+                                                                   'year': 2005}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[9] I. Affleck and A. '
+                                                       'W. W. Ludwig, Nucl. '
+                                                       'Phys. B 360, 641 '
+                                                       '(1991).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/28954'},
+                              'reference': { 'authors': [ { 'full_name': 'Affleck, '
+                                                                         'I.'},
+                                                          { 'full_name': 'Ludwig, '
+                                                                         'A.W. '
+                                                                         'W.'}],
+                                             'label': '9',
+                                             'publication_info': { 'artid': '641',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '360',
+                                                                   'page_start': '641',
+                                                                   'year': 1991}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[10] I. Affleck and A. '
+                                                       'W. W. Ludwig, Nucl. '
+                                                       'Phys. B 352, 849 '
+                                                       '(1991).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/27987'},
+                              'reference': { 'authors': [ { 'full_name': 'Affleck, '
+                                                                         'I.'},
+                                                          { 'full_name': 'Ludwig, '
+                                                                         'A.W. '
+                                                                         'W.'}],
+                                             'label': '10',
+                                             'publication_info': { 'artid': '849',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '352',
+                                                                   'page_start': '849',
+                                                                   'year': 1991}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[11] J. B. Hong, T. '
+                                                       'Park and Y. S. Kwon, '
+                                                       'J. Korean Phys. Soc. '
+                                                       '47 479 (2005).'}],
+                              'reference': { 'authors': [ { 'full_name': 'Hong, '
+                                                                         'J.B.'},
+                                                          { 'full_name': 'Park, '
+                                                                         'T.'},
+                                                          { 'full_name': 'Kwon, '
+                                                                         'Y.S.'}],
+                                             'label': '11',
+                                             'publication_info': { 'artid': '479',
+                                                                   'journal_title': 'J.Korean '
+                                                                                    'Phys.Soc.',
+                                                                   'journal_volume': '47',
+                                                                   'page_start': '479',
+                                                                   'year': 2005}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[12] C. L. Kane and M. '
+                                                       'P. A. Fisher, Phys. '
+                                                       'Rev. B46, 15233 '
+                                                       '(1992).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/352046'},
+                              'reference': { 'authors': [ { 'full_name': 'Kane, '
+                                                                         'C.L.'},
+                                                          { 'full_name': 'Fisher, '
+                                                                         'M.P. '
+                                                                         'A.'}],
+                                             'label': '12',
+                                             'publication_info': { 'artid': '15233',
+                                                                   'journal_title': 'Phys.Rev.B',
+                                                                   'journal_volume': '46',
+                                                                   'year': 1992}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[13] C. L. Kane and M. '
+                                                       'P. A. Fisher, '
+                                                       '[cond-mat/9506116].'}],
+                              'reference': { 'arxiv_eprint': 'cond-mat/9506116',
+                                             'authors': [ { 'full_name': 'Kane, '
+                                                                         'C.L.'},
+                                                          { 'full_name': 'Fisher, '
+                                                                         'M.P. '
+                                                                         'A.'}],
+                                             'label': '13'}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[14] M. Oshikawa, C. '
+                                                       'Chamon and I. Affleck, '
+                                                       'Phys. Rev. Lett. 91, '
+                                                       '206403 (2003) '
+                                                       '[cond-mat/0509675].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/693629'},
+                              'reference': { 'arxiv_eprint': 'cond-mat/0509675',
+                                             'authors': [ { 'full_name': 'Oshikawa, '
+                                                                         'M.'},
+                                                          { 'full_name': 'Chamon, '
+                                                                         'C.'},
+                                                          { 'full_name': 'Affleck, '
+                                                                         'I.'}],
+                                             'label': '14',
+                                             'publication_info': { 'artid': '206403',
+                                                                   'journal_title': 'Phys.Rev.Lett.',
+                                                                   'journal_volume': '91',
+                                                                   'year': 2003}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[15] E. Witten, Phys. '
+                                                       'Rev. D 46, 5467 (1992) '
+                                                       '[hep-th/9208027].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/336751'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9208027',
+                                             'authors': [ { 'full_name': 'Witten, '
+                                                                         'E.'}],
+                                             'label': '15',
+                                             'publication_info': { 'artid': '5467',
+                                                                   'journal_title': 'Phys.Rev.D',
+                                                                   'journal_volume': '46',
+                                                                   'page_start': '5467',
+                                                                   'year': 1992}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[16] S. L. '
+                                                       'Shatashvili, Phys. '
+                                                       'Lett. B 311, 83 (1993) '
+                                                       '[hep-th/9303143].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/353377'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9303143',
+                                             'authors': [ { 'full_name': 'Shatashvili, '
+                                                                         'S.L.'}],
+                                             'label': '16',
+                                             'publication_info': { 'artid': '83',
+                                                                   'journal_title': 'Phys.Lett.B',
+                                                                   'journal_volume': '311',
+                                                                   'page_start': '83',
+                                                                   'year': 1993}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[17] S. L. '
+                                                       'Shatashvili, Alg. '
+                                                       'Anal. 6, 215 (1994) '
+                                                       '[hep-th/9311177].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/360672'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9311177',
+                                             'authors': [ { 'full_name': 'Shatashvili, '
+                                                                         'S.L.'}],
+                                             'label': '17',
+                                             'publication_info': { 'artid': '215',
+                                                                   'journal_title': 'Alg.Anal.',
+                                                                   'journal_volume': '6',
+                                                                   'page_start': '215',
+                                                                   'year': 1994}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[18] A. Sen, JHEP '
+                                                       '0204, 048 (2002) '
+                                                       '[hep-th/0203211]'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/584446'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0203211',
+                                             'authors': [ { 'full_name': 'Sen, '
+                                                                         'A.'}],
+                                             'label': '18',
+                                             'publication_info': { 'artid': '048',
+                                                                   'journal_title': 'JHEP',
+                                                                   'journal_volume': '04',
+                                                                   'page_start': '048',
+                                                                   'year': 2002}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[19] See for a review '
+                                                       'on the rolling '
+                                                       'tachyon: A. Sen, Int. '
+                                                       'J. Mod. Phys. A20, '
+                                                       '5513 (2005) '
+                                                       '[hep-th/0410103].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/661601'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0410103',
+                                             'authors': [ { 'full_name': 'Sen, '
+                                                                         'A.'}],
+                                             'label': '19',
+                                             'misc': [ 'See for a review on '
+                                                       'the rolling tachyon:'],
+                                             'publication_info': { 'artid': '5513',
+                                                                   'journal_title': 'Int.J.Mod.Phys.A',
+                                                                   'journal_volume': '20',
+                                                                   'page_start': '5513',
+                                                                   'year': 2005}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[20] C. Kim, H. B. '
+                                                       'Kim, Y. Kim, O.-K. '
+                                                       'Kwon and C. O. Lee, J. '
+                                                       'Korean Phys. Soc. 45 '
+                                                       'S181 (2004).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/649372'},
+                              'reference': { 'authors': [ { 'full_name': 'Kim, '
+                                                                         'C.'},
+                                                          { 'full_name': 'Kim, '
+                                                                         'H.B.'},
+                                                          { 'full_name': 'Kim, '
+                                                                         'Y.'},
+                                                          { 'full_name': 'Kwon, '
+                                                                         'O.-K.'},
+                                                          { 'full_name': 'Lee, '
+                                                                         'C.O.'}],
+                                             'label': '20',
+                                             'publication_info': { 'artid': 'S181',
+                                                                   'journal_title': 'J.Korean '
+                                                                                    'Phys.Soc.',
+                                                                   'journal_volume': '45',
+                                                                   'page_start': 'S181',
+                                                                   'year': 2004}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[21] J. H. Chung and '
+                                                       'W. S. L’yi, J. Korean '
+                                                       'Phys. Soc. 45 318 '
+                                                       '(2004)'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/668614'},
+                              'reference': { 'authors': [ { 'full_name': 'Chung, '
+                                                                         'J.H.'}],
+                                             'label': '21',
+                                             'misc': ['and W. S. L’yi'],
+                                             'publication_info': { 'artid': '318',
+                                                                   'journal_title': 'J.Korean '
+                                                                                    'Phys.Soc.',
+                                                                   'journal_volume': '45',
+                                                                   'page_start': '318',
+                                                                   'year': 2004}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[22] T. Lee, Phys. '
+                                                       'Rev. D64, 106004 '
+                                                       '(2001) '
+                                                       '[hep-th/0105115].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/556531'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0105115',
+                                             'authors': [ { 'full_name': 'Lee, '
+                                                                         'T.'}],
+                                             'label': '22',
+                                             'publication_info': { 'artid': '106004',
+                                                                   'journal_title': 'Phys.Rev.D',
+                                                                   'journal_volume': '64',
+                                                                   'year': 2001}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[23] T. Lee, J. Korean '
+                                                       'Phys. Soc. 39 S536 '
+                                                       '(2001).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/579060'},
+                              'reference': { 'authors': [ { 'full_name': 'Lee, '
+                                                                         'T.'}],
+                                             'label': '23',
+                                             'publication_info': { 'artid': 'S536',
+                                                                   'journal_title': 'J.Korean '
+                                                                                    'Phys.Soc.',
+                                                                   'journal_volume': '39',
+                                                                   'page_start': 'S536',
+                                                                   'year': 2001}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[24] T. Lee, Phys. '
+                                                       'Lett. B520, 385 (2001) '
+                                                       '[hep-th/0105264].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/557358'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0105264',
+                                             'authors': [ { 'full_name': 'Lee, '
+                                                                         'T.'}],
+                                             'label': '24',
+                                             'publication_info': { 'artid': '385',
+                                                                   'journal_title': 'Phys.Lett.B',
+                                                                   'journal_volume': '520',
+                                                                   'page_start': '385',
+                                                                   'year': 2001}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[25] T. Lee, J. Korean '
+                                                       'Phys. Soc. 42 34 '
+                                                       '(2003) '
+                                                       '[hep-th/0109032].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/562398'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0109032',
+                                             'authors': [ { 'full_name': 'Lee, '
+                                                                         'T.'}],
+                                             'label': '25',
+                                             'publication_info': { 'artid': '34',
+                                                                   'journal_title': 'J.Korean '
+                                                                                    'Phys.Soc.',
+                                                                   'journal_volume': '42',
+                                                                   'page_start': '34',
+                                                                   'year': 2003}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[26] A. Schmid, Phys. '
+                                                       'Rev. Lett. 51, 1506 '
+                                                       '(1983).'}],
+                              'reference': { 'authors': [ { 'full_name': 'Schmid, '
+                                                                         'A.'}],
+                                             'label': '26',
+                                             'publication_info': { 'artid': '1506',
+                                                                   'journal_title': 'Phys.Rev.Lett.',
+                                                                   'journal_volume': '51',
+                                                                   'page_start': '1506',
+                                                                   'year': 1983}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[27] M. P. A. Fisher '
+                                                       'and W. Zwerger, Phys. '
+                                                       'Rev. B32 6190 '
+                                                       '(1985).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/226679'},
+                              'reference': { 'authors': [ { 'full_name': 'Fisher, '
+                                                                         'M.P. '
+                                                                         'A.'},
+                                                          { 'full_name': 'Zwerger, '
+                                                                         'W.'}],
+                                             'label': '27',
+                                             'publication_info': { 'artid': '6190',
+                                                                   'journal_title': 'Phys.Rev.B',
+                                                                   'journal_volume': '32',
+                                                                   'page_start': '6190',
+                                                                   'year': 1985}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[28] F. Guinea, V. '
+                                                       'Hakim, and A. '
+                                                       'Muramatsu, Phys. Rev. '
+                                                       'Lett. 54, 263 '
+                                                       '(1985).'}],
+                              'reference': { 'authors': [ { 'full_name': 'Guinea, '
+                                                                         'F.'},
+                                                          { 'full_name': 'Hakim, '
+                                                                         'V.'},
+                                                          { 'full_name': 'Muramatsu, '
+                                                                         'A.'}],
+                                             'label': '28',
+                                             'publication_info': { 'artid': '263',
+                                                                   'journal_title': 'Phys.Rev.Lett.',
+                                                                   'journal_volume': '54',
+                                                                   'page_start': '263',
+                                                                   'year': 1985}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[29] C G. Callan, Jr. '
+                                                       'and L. Thorlacius, '
+                                                       'Nucl. Phys. B329, 117 '
+                                                       '(1990).'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/278874'},
+                              'reference': { 'authors': [ { 'full_name': 'Callan, '
+                                                                         'C.G.'}],
+                                             'label': '29',
+                                             'misc': ['Jr. and L. Thorlacius'],
+                                             'publication_info': { 'artid': '117',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '329',
+                                                                   'page_start': '117',
+                                                                   'year': 1990}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[30] M. Hasselfield, '
+                                                       'Taejin Lee, G. W. '
+                                                       'Semenoff, P. C. E. '
+                                                       'Stamp, in press, Ann. '
+                                                       'Phys. (2006) '
+                                                       '[hep-th/0512219].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/700790'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0512219',
+                                             'authors': [ { 'full_name': 'Hasselfield, '
+                                                                         'M.'}],
+                                             'label': '30',
+                                             'misc': [ 'Taejin Lee, G. W. '
+                                                       'Semenoff, P. C. E',
+                                                       'Stamp, in press, Ann. '
+                                                       'Phys'],
+                                             'publication_info': { 'year': 2006}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[31] J. Polchinski and '
+                                                       'L. Thorlacius, '
+                                                       '[hep-th/9404008].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/37688'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9404008',
+                                             'authors': [ { 'full_name': 'Polchinski, '
+                                                                         'J.'},
+                                                          { 'full_name': 'Thorlacius, '
+                                                                         'L.'}],
+                                             'label': '31'}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[32] T. Lee and G. W. '
+                                                       'Semenoff, JHEP 0505, '
+                                                       '072 (2005) '
+                                                       '[hep-th/0502236].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/677492'},
+                              'reference': { 'arxiv_eprint': 'hep-th/0502236',
+                                             'authors': [ { 'full_name': 'Lee, '
+                                                                         'T.'},
+                                                          { 'full_name': 'Semenoff, '
+                                                                         'G.W.'}],
+                                             'label': '32',
+                                             'publication_info': { 'artid': '072',
+                                                                   'journal_title': 'JHEP',
+                                                                   'journal_volume': '05',
+                                                                   'page_start': '072',
+                                                                   'year': 2005}}},
+                            { 'raw_refs': [ { 'schema': 'text',
+                                              'source': 'arXiv',
+                                              'value': '[33] C. G. Callan, I. '
+                                                       'R. Klebanov, J. M. '
+                                                       'Maldacena and A. '
+                                                       'Yegulalp, Nucl. Phys. '
+                                                       'B443, 444 (1995), '
+                                                       '[hep-th/9503014].'}],
+                              'record': { '$ref': 'http://pcrcsis02.cern.ch/api/literature/393144'},
+                              'reference': { 'arxiv_eprint': 'hep-th/9503014',
+                                             'authors': [ { 'full_name': 'Callan, '
+                                                                         'C.G.'},
+                                                          { 'full_name': 'Klebanov, '
+                                                                         'I.R.'},
+                                                          { 'full_name': 'Maldacena, '
+                                                                         'J.M.'},
+                                                          { 'full_name': 'Yegulalp, '
+                                                                         'A.'}],
+                                             'label': '33',
+                                             'publication_info': { 'artid': '444',
+                                                                   'journal_title': 'Nucl.Phys.B',
+                                                                   'journal_volume': '443',
+                                                                   'page_start': '444',
+                                                                   'year': 1995}}}],
+            'titles': [ { 'source': 'arXiv',
+                          'title': 'Dissipative Hofstadter Model at the Magic '
+                                   'Points and Critical Boundary Sine-Gordon '
+                                   'Model'}]},
+  'extra_data': { '_last_task_name': 'populate_journal_coverage',
+                  '_task_history': [ { 'doc': 'Make sure schema is set '
+                                              'properly and resolve it.',
+                                       'name': 'set_schema',
+                                       'nicename': 'Make sure schema is set '
+                                                   'properly and resolve it.',
+                                       'parameters': [],
+                                       'time': '2018-05-17 09:14:41.936603'},
+                                     { 'doc': 'Mark the workflow object with '
+                                              'auto-approved:None.',
+                                       'name': 'mark',
+                                       'nicename': 'Mark the workflow object '
+                                                   'with auto-approved:None.',
+                                       'parameters': [],
+                                       'time': '2018-05-17 09:14:41.936872'},
+                                     { 'doc': 'Mark the workflow object with '
+                                              'already-in-holding-pen:None.',
+                                       'name': 'mark',
+                                       'nicename': 'Mark the workflow object '
+                                                   'with '
+                                                   'already-in-holding-pen:None.',
+                                       'parameters': [],
+                                       'time': '2018-05-17 09:14:41.937210'},
+                                     { 'doc': 'Mark the workflow object with '
+                                              'previously_rejected:None.',
+                                       'name': 'mark',
+                                       'nicename': 'Mark the workflow object '
+                                                   'with '
+                                                   'previously_rejected:None.',
+                                       'parameters': [],
+                                       'time': '2018-05-17 09:14:41.937387'},
+                                     { 'doc': 'Mark the workflow object with '
+                                              'is-update:None.',
+                                       'name': 'mark',
+                                       'nicename': 'Mark the workflow object '
+                                                   'with is-update:None.',
+                                       'parameters': [],
+                                       'time': '2018-05-17 09:14:41.938229'},
+                                     { 'doc': 'Mark the workflow object with '
+                                              'stopped-matched-holdingpen-wf:None.',
+                                       'name': 'mark',
+                                       'nicename': 'Mark the workflow object '
+                                                   'with '
+                                                   'stopped-matched-holdingpen-wf:None.',
+                                       'parameters': [],
+                                       'time': '2018-05-17 09:14:41.938406'},
+                                     { 'doc': 'Mark the workflow object with '
+                                              'approved:None.'
