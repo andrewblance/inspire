@@ -13,8 +13,8 @@ https://docs.google.com/document/d/1PTnY3QBe57Ajd8XeGymXtIaFEbmBEglYWj_jMjQ3iHA/
 The file ```inspire_classifer.ipynb``` contains all the major attempts we made at solving the problem. Therefore, running the entire file will take time. Only the sections titled 'Initial dataframe import', 'SVM with fractions' and 'Decision Boundary Cuts' need to be run to produce our final results. 
 
 ## Authors
-Andrew Blance<br/>
-Aidan Sedgewick<br/>
-Parisa Gregg<br/>
+Andrew Blance - andrew.t.blance@durham.ac.uk<br/>
+Aidan Sedgewick - aidan.sedgewick@durham.ac.uk<br/>
+Parisa Gregg - parisa.gregg@durham.ac.uk<br/>
   
  
